@@ -1,2 +1,2 @@
-# todoist-client
+# Todoist Client App
 My Todoist Client.
