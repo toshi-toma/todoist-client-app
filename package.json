@@ -1,5 +1,5 @@
 {
-  "name": "todoist-client",
+  "name": "todoist-client-app",
   "version": "1.0.0",
   "description": "My Todoist Client.",
   "main": "index.js",
@@ -8,18 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/toshi-toma/todoist-client.git"
+    "url": "git+ssh://git@github.com/toshi-toma/todoist-client-app.git"
   },
-  "engines": {
-    "node": ">=10"
-  },
-  "keywords": [
-    "Todoist"
-  ],
-  "author": "toshi-toma",
+  "keywords": [],
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/toshi-toma/todoist-client/issues"
+    "url": "https://github.com/toshi-toma/todoist-client-app/issues"
   },
-  "homepage": "https://github.com/toshi-toma/todoist-client#readme"
+  "homepage": "https://github.com/toshi-toma/todoist-client-app#readme"
 }
