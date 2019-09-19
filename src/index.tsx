@@ -1,15 +1,4 @@
-import React, { FC } from "react";
-import styled from "styled-components";
+import React from "react";
+import ReactDOM from "react-dom";
 
-const Button = styled.button`
-  background-color: #454545;
-  color: #fff;
-`;
-
-interface Props {
-  onClick: () => void;
-}
-
-const SimpleButton: FC<Props> = () => <Button>Done</Button>;
-
-export default SimpleButton;
+ReactDOM.render(<h1>ToDo App</h1>, document.getElementById("root"));
