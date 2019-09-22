@@ -4,6 +4,8 @@
   "description": "My Todoist Client.",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --mode development --open --devtool cheap-module-source-map",
+    "build": "webpack --mode production",
     "tsc": "tsc --noEmit",
     "lint": "eslint --ext .ts,.tsx src/",
     "lint:fix": "eslint --ext .ts,.tsx src/ --fix",
@@ -45,6 +47,9 @@
     "prettier": "^1.18.2",
     "react-docgen-typescript-loader": "^3.2.0",
     "ts-loader": "^6.1.0",
-    "typescript": "^3.6.3"
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
   }
 }
