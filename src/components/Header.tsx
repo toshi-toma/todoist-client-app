@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
+const H1 = styled.h1`
+  margin: 0;
+`;
+
 const Wrapper = styled.header`
   background-color: #db4c3f;
   color: #fff;
@@ -9,7 +13,7 @@ const Wrapper = styled.header`
 const Header = () => {
   return (
     <Wrapper>
-      <h1>ToDo App</h1>
+      <H1>ToDo App</H1>
     </Wrapper>
   );
 };
