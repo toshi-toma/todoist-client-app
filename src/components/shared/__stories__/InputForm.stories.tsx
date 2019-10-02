@@ -2,7 +2,7 @@ import React from "react";
 import InputForm from "../InputForm";
 
 export default {
-  title: "InputForm"
+  title: "shared/InputForm"
 };
 
 export const normal = () => <InputForm />;
