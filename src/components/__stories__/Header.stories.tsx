@@ -5,4 +5,5 @@ export default {
   title: "Header"
 };
 
-export const normal = () => <Header />;
+export const normal = () => <Header token="" />;
+export const passingToken = () => <Header token="aaaaaaaaaaaa" />;

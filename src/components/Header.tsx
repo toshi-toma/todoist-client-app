@@ -1,6 +1,6 @@
-import React from "react";
+import React, { FC } from "react";
 import styled from "styled-components";
-import { getTokenFromStorage, flushToken } from "../util/StorageController";
+import { flushToken } from "../util/StorageController";
 import Button from "./shared/Button";
 
 const H1 = styled.h1`
@@ -14,12 +14,15 @@ const Wrapper = styled.header`
 
 const LogoutButton = styled(Button)``;
 
-const Header = () => {
-  const maybeToken = getTokenFromStorage();
+type Props = {
+  token: string;
+};
+
+const Header: FC<Props> = ({ token }) => {
   return (
     <Wrapper>
       <H1>ToDo App</H1>
-      {maybeToken ? (
+      {token ? (
         <LogoutButton
           onClick={() => {
             flushToken();

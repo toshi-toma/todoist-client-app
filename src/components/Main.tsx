@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, FC } from "react";
 import styled from "styled-components";
 
 import TodoList from "./Todoist/TodoList";
@@ -7,9 +7,12 @@ import { storeToken, getTokenFromStorage } from "../util/StorageController";
 
 const Wrapper = styled.main``;
 
-const Main = () => {
-  const [token, setToken] = useState("");
+type Props = {
+  token: string;
+  setToken: (token: string) => void;
+};
 
+const Main: FC<Props> = ({ token, setToken }) => {
   useEffect(() => {
     const maybeToken = getTokenFromStorage();
     if (maybeToken) {

@@ -5,4 +5,7 @@ export default {
   title: "Main"
 };
 
-export const normal = () => <Main />;
+export const normal = () => <Main token="" setToken={() => {}} />;
+export const passingToken = () => (
+  <Main token="aaaaaaaaaaaa" setToken={() => {}} />
+);
