@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/toshi-toma/todoist-client-app#readme",
   "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
@@ -35,8 +35,8 @@
     "@storybook/addons": "5.2.0",
     "@storybook/preset-typescript": "1.1.0",
     "@storybook/react": "5.2.0",
-    "@types/react": "16.9.2",
-    "@types/react-dom": "16.9.0",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
     "@types/storybook__addon-actions": "3.4.3",
     "@types/storybook__react": "4.0.2",
     "@types/styled-components": "4.1.19",
